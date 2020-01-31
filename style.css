@@ -1,0 +1,501 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+#google-logo {
+    width: 9%;
+    height: 100%;
+    float: left;
+}
+.top-bar{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #F0F3F4;
+}
+#top-middle-bar{
+    background-color: white;
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+#top-middle-bar ul  {
+    float: left;
+    margin-top: 20px;
+} 
+
+#top-middle-bar ul li {
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+} 
+
+#top-middle-bar ul li a{
+    text-decoration: none;
+    color: #586F88;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.no-margin-left{
+    margin-left: 0px;
+}
+
+#top-middle-bar input{
+    height: 40px;
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 0.5px solid #D0D3D4;
+    position: relative;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/417px-Google_mic.svg.png) "width: 7px", "height: 7px"; 
+
+} 
+
+.lower-bar{
+    width: 100%;
+}
+#google-image{
+    height: 60px;
+    width: 110px;
+    margin: 10% 0 0 0%;
+}
+.link-image{
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+}
+
+.link-image2{
+    height: 20px;
+    width: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: absolute;
+}
+.inside-input{
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    margin-top: 2%;
+}
+.input-div{
+    margin-left: 5%;
+}
+.list-div-1{
+    margin-left: 0px;
+    position: relative;
+}
+.top-right-bar{
+    float: left;
+    width: 40%;
+    height: 100%;  
+
+}
+.top-right-bar img{
+    height: 15px;
+    width: 15px;    
+    margin-top: 15%;
+    margin-left: 86%;
+}
+#name-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #0E6655;
+    float: right;   
+    margin-right: 15px;
+    margin-top: 14%;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.char{
+    margin-left: 9px;
+    margin-bottom: 5px;
+}
+
+#main-left-div{
+    width: 55%;
+    float: left;
+    height: 100%;
+}
+#main-right-div{
+    width: 45%;
+    float: left;
+    padding-top: 25px;
+}
+
+#main-left-div-innerContainer{
+    width: 80%;
+    margin-left: 15%;
+}
+
+#main-right-div-innerContainer{
+    height: 99%;
+    width: 80%;
+    margin-right: 10%;
+}
+
+.top-stories-div{
+    width: 30%;
+    height: 260px;
+    float: left;
+    margin-left: 1%;
+    border-radius: 5%;
+    border: 1px solid khaki
+}
+
+.top-stories-div img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.tiny-font{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.newsAgency-font{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2C3E50;
+    margin-left: 10px;
+}
+
+.section-3 img{
+    margin-right: 5px;
+    margin-left: 2%;
+    margin-top: 10px;
+    float: left;
+}
+.section-3 a{
+    margin-right: 10px;
+    float: left;
+    margin-top: 12px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.section-3 a:hover{
+    text-decoration: underline;
+}
+
+
+.story-font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #202F9B;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.link-narration{
+    margin-top: 300px;
+    color: #2C3E50;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.link-narration-edit{
+    margin-top: 10px;
+    color: #2C3E50;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.list-of-others{
+    width: 100%;
+    height: 180px;
+    border: 3px solid cornsilk;
+    border-radius: 5px;
+}
+.list-of-others h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 0px;
+}
+.each-item{
+    width: 13%;
+    height: 100px;
+    float: left;
+    margin-left: 6px;
+
+}
+
+.section h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #202F9B;
+    margin-left: 5px;
+
+}
+.content-story{
+    margin-left: 5px;
+    padding: 0px;
+}
+.content-story p{
+    margin-top: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 14px;   
+}
+
+.each-item img{
+    width: 100%;
+    height: 65%;
+    margin-top: 5px;
+}
+
+.each-item a{
+    margin-left: 0px;
+    text-decoration: none;
+}
+.each-item a:hover{
+    text-decoration: underline;
+}
+
+.related-search-div h2{
+    padding: 0px;
+    margin-left: 5px;
+
+}
+.related-search-div ul li{
+    list-style: none;
+}
+
+.others{
+    width: 30%;
+    height: 120px;
+    float: left;
+    margin-left: 0px;
+}
+
+.searches-header{
+    height: 50px;
+    width: 100%;
+}
+
+#goooooooooogle{
+    margin-top: 150px;
+    margin-left: 60%;
+    width: 100%;
+    height: 40px;
+}
+
+.others a {
+    text-decoration: none;
+}
+
+
+.label-color-blue{
+	color: #4285F4;
+}
+.label-color-red{
+    color: #DB4437;
+}
+.label-color-yellow{
+	color: #F4B400;
+}
+.label-color-green{
+	color: #0F9D58;
+}
+
+.image-1{
+    width: 29%;
+    height: 190px;
+    float: left;
+    border-top-left-radius: 5px;
+}
+
+
+.image-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.image2{    
+    width: 70%;
+    height: 190px;  
+    float: left;
+}
+.image3-div{
+    height: 50%;
+    width: 100%;
+}
+
+.sectional-image{
+    width: 27%;
+    height: 98%;
+    margin-left: 1%;
+    float: left;
+}
+.sectional-image img,
+.sectional-image2 img, 
+.sectional-image3 img,
+.sectional-image4 img,
+.sectional-image5 img,
+.sectional-image6 img
+{
+    width: 100%;
+    height: 100%;
+}
+.sectional-image2{
+    width: 32%;
+    height: 98%;
+    margin-left: 1%;
+    float: left;
+}
+.sectional-image3{
+    width: 36%;
+    height: 98%;
+    margin-left: 1%;
+    float: left;
+}
+.sectional-image4{
+    width: 25%;
+    height: 98%;
+    margin-left: 1%;
+    float: left;
+}
+.sectional-image5{
+    width: 34%;
+    height: 98%;
+    margin-left: 1%;
+    float: left;
+}
+.sectional-image6{
+    width: 36%;
+    height: 98%;
+    margin-left: 1%;
+    float: left;
+}
+
+#section4{
+    width: 99%;
+    height: 60px;
+    margin-left: 10px;
+    border: 1px solid gainsboro;
+}
+
+#section4 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+#section4 p{
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.player-info{
+    width: 99%;
+    border: 1px solid gainsboro;
+    margin-left: 10px;
+}
+
+.player-info a{
+    text-decoration: none;
+}
+.player-info a:hover{
+    text-decoration: underline;
+}
+
+#player-intro{
+    width: 100%;
+    height: 200px;
+    margin-left: 10px;
+}
+.ten-px-margin-left{
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.bigfont{
+    font-size: 15px;
+}
+.stats-viewall{
+    height: 60px;
+    width: 100%;
+    padding-top: 25px;
+}
+.sv-right{
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.sv-left{
+    float: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+table{
+    width: 90%;
+    margin-left: 10px;
+}
+
+thead td{
+    font-size: 12px;
+    border-bottom: 1px solid gainsboro;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+tr{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+
+tr p{
+    font-size: 9px;
+}
+
+.list-of-others2{
+    width: 100%;
+    height: 180px;
+    border: 3px solid cornsilk;
+    border-radius: 5px;
+}
+
+@media (max-width: 460px){    
+    .top-bar{
+        width: 100%;
+        height: 120px;
+    }
+    #top-middle-bar{
+        background-color: white;
+        height: 100%;
+    }
+}
+
+@media (max-width: 620px){    
+    .top-bar{
+        width: 100%;
+    }
+    #top-middle-bar{
+        width: 100%;
+    }
+    #main-right-div{
+        width: 98%;
+        float: left;
+    }
+    #main-left-div{
+        width: 98%;
+        float: right;
+    }
+}
